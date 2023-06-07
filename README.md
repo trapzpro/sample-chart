@@ -28,7 +28,9 @@ If you have PHP, Composer, Node.js and npm locally installed, follow these steps
 5. Rename `.env.example` to `.env` and modify the database configuration with the absolute path if using sqlite as per your local environment. 
 6. Run `php artisan key:generate` to generate an application key.
 7. Run `php artisan migrate` to create database tables.
-8. Finally, run `php artisan serve` to start the Laravel server.
+8. Run `npm run dev` to build and serve frontend assets.
+9. Finally, run `php artisan serve` to start the Laravel server.
+
 
 ### Setup With Laravel Sail (Local Composer Available)
 
@@ -39,6 +41,7 @@ If you have Composer locally installed and Docker available, Laravel Sail can be
 3. Run `composer install` to download PHP dependencies.
 4. Copy `.env.example` to `.env` and modify the database configuration with the absolute path if using sqlite as per your local environment.
 5. Run `./vendor/bin/sail up` to start the Laravel server.
+4. Run `./vendor/bin/sail npm run dev` to build and serve frontend assets.
 
 ### Setup With Laravel Sail (Only Docker Available)
 
@@ -58,6 +61,8 @@ docker run --rm \
      
 4. Copy `.env.example` to `.env` and modify the database configuration with the absolute path if using sqlite as per your local environment.
 5. Run `./vendor/bin/sail up` to start the Laravel server.
+4. Run `./vendor/bin/sail npm run dev` to build and serve frontend assets.
+
 
 
 ### Thats It!
