@@ -1,7 +1,8 @@
 <?php
 
+use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// demo route
+Route::get('/', [App\Http\Controllers\MostBasicPageController::class, 'index'])->name('data');
+
+Route::get('/combined', [App\Http\Controllers\CombinedChartPageController::class, 'index'])->name('combined');
+
+
+Auth::routes();
+
