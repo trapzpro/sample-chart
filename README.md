@@ -1,4 +1,4 @@
-# Laravel Application
+# CMS Chart Application
 
 #### Welcome to this sample application. 
 This README provides instructions on how to get the application up and running on your local machine.
@@ -21,8 +21,8 @@ In case these tools aren't available, the Laravel Sail option will allow you to 
 
 If you have PHP, Composer, Node.js and npm locally installed, follow these steps:
 
-1. Clone the repository to your local machine.
-2. Navigate to the application directory.
+1. Clone the repository to your local machine.`git clone https://github.com/trapzpro/sample-chart.git`
+2. Navigate to the application directory.`cd sample-chart`
 3. Run `composer install` to download PHP dependencies.
 4. Run `npm install` to download Node.js dependencies.
 5. Rename `.env.example` to `.env` and modify the database configuration with the absolute path if using sqlite as per your local environment. 
@@ -34,8 +34,8 @@ If you have PHP, Composer, Node.js and npm locally installed, follow these steps
 
 If you have Composer locally installed and Docker available, Laravel Sail can be utilized:
 
-1. Clone the repository to your local machine.
-2. Navigate to the application directory.
+1. Clone the repository to your local machine.`git clone https://github.com/trapzpro/sample-chart.git`
+2. Navigate to the application directory.`cd sample-chart`
 3. Run `composer install` to download PHP dependencies.
 4. Copy `.env.example` to `.env` and modify the database configuration with the absolute path if using sqlite as per your local environment.
 5. Run `./vendor/bin/sail up` to start the Laravel server.
@@ -44,8 +44,8 @@ If you have Composer locally installed and Docker available, Laravel Sail can be
 
 If only Docker is available, you can still run the application using Laravel Sail:
 
-1. Clone the repository to your local machine.
-2. Navigate to the application directory.
+1. Clone the repository to your local machine.`git clone https://github.com/trapzpro/sample-chart.git`
+2. Navigate to the application directory.`cd sample-chart`
 3. Run the following to download PHP dependencies. :
 ```bash 
 docker run --rm \
