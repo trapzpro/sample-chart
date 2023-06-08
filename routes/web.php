@@ -17,6 +17,8 @@ use Illuminate\Support\Facades\Route;
 // demo route
 Route::get('/', [App\Http\Controllers\MostBasicPageController::class, 'index'])->name('data');
 
+Route::get('/highchart', [App\Http\Controllers\HighchartPageController::class, 'index'])->name('highchart');
+
 Route::get('/combined', [App\Http\Controllers\CombinedChartPageController::class, 'index'])->name('combined');
 
 
