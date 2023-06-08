@@ -6,7 +6,7 @@
     </div>
     <div class="w-full ml-4">
       <h3 class="text-lg font-bold">Flexibly change the value of each point:</h3>
-      <h4 class="text-md font-bold mt-4">Possssints:</h4>
+      <h4 class="text-md font-bold mt-4">Points:</h4>
       <form class="grid grid-col-4 mt-2">
         <div v-for="index in 8" :key="index" class=" mb-2 ">
           {{ index }}:
