@@ -28,6 +28,8 @@
         "chart.js": "^4.3.0",
         "chartkick": "^5.0.1",
         "echarts": "^5.4.2",
+        "highcharts": "^11.1.0",
+        "highcharts-vue": "^1.4.2",
         "vue-axios": "^3.5.2",
         "vue-chartjs": "^5.2.0",
         "vue-chartkick": "^1.1.0",
